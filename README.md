@@ -4,12 +4,12 @@
   git clone https://github.com/swagkarna/PDF-Cracker.git
   cd PDF-Cracker
   chmod +x *
-  python start.py
+  python3 start.py
   
   ```
 ## Installation :
 
-### pip install pypdf2
+### pip3 install pypdf2
 
 ## ScreenShot :
 
