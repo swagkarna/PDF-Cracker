@@ -9,8 +9,12 @@
   ```
 ## Installation :
 
-### pip install py2pdf
+### pip install pypdf2
 
 ## ScreenShot :
 
 <img src="https://raw.githubusercontent.com/swagkarna/PDF-Cracker/master/image.png">
+
+## Happy Cracking :
+
+![Pdf cracker](https://raw.githubusercontent.com/swagkarna/PDF-Cracker/master/tenor.gif)
