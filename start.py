@@ -34,7 +34,7 @@ else:
     words = body.split()
 
     for i in range(len(words)):
-        print("Attempts tried: ",i)
+        print("Attempts tried :",i)
         word = words[i]
         print('Cracking {}'.format(word))
         result = pdfReader.decrypt(word)
