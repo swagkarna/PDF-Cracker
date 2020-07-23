@@ -31,9 +31,10 @@ if not pdfReader.isEncrypted:
 else:
     wordListFile = open(passlist, 'r')
     body = wordListFile.read().lower()
-    words = body.split('\n')
+    words = body.split()
 
     for i in range(len(words)):
+        print("Attempts tried: ",i)
         word = words[i]
         print('Cracking {}'.format(word))
         result = pdfReader.decrypt(word)
